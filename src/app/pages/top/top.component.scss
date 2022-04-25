@@ -1,0 +1,15 @@
+.top {
+  padding: 40px;
+  .title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .pokemon-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}

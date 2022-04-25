@@ -1,0 +1,10 @@
+<div class="top">
+  <h2 class="title">今日のポケモン</h2>
+  <ul class="pokemon-list">
+    <li *ngFor="let pokemon of kantoPokemons">
+      <a [routerLink]="['/pokemon', pokemon.id]">
+        <img [src]="pokemon.imageURL" alt="">
+      </a>
+    </li>
+  </ul>
+</div>

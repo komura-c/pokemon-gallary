@@ -1,0 +1,7 @@
+<div class="pokemon-detail" *ngIf="pokemonData$ | async as pokemonData ">
+  <div *ngIf="pokemonData">
+    <img [src]="imageURL" alt="">
+    <div>{{ pokemonData}}</div>
+    {{pokemonData | json}}
+  </div>
+</div>
